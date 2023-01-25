@@ -75,10 +75,21 @@ header > .container{
 main{
     padding-top: 60px
 }
+
+main > .container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
 .box{
-    width:calc(100%/3);
+    width: calc(100%/3 - 30px);
+    margin-bottom: 40px;
 }
 
 img{
     width: 100%;
 }
+
+/* ------------------------------------------------------------------------ */
