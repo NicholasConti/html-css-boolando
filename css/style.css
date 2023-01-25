@@ -86,12 +86,27 @@ main > .container{
 .box{
     width: calc(100%/3 - 30px);
     margin-bottom: 40px;
+    position: relative;
 }
 
 img{
     width: 100%;
 }
 
+.hidden{
+    display: none;
+    
+}
+
+main .container .box:hover .defaultimg{
+    display: none;
+ 
+}
+
+main .container .box:hover .hidden{
+    display: inline-block;
+ 
+}
 .sconto{
     color: white;
     background-color: red;
