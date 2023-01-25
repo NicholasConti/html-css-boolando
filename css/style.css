@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+
+/* HEADRER */
+header{
+    height: 70px;
+    background-color: #ff6900;
+    border-bottom: 1px solid #9e9e9e;
+    color: white;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.genere , .account{
+    line-height: 70px;
+}
+
+.logo{
+    padding: 22px 0;
+}
+.logo img{
+    height: 100%;
+}
+/* ------------------------------------------------------------ */
