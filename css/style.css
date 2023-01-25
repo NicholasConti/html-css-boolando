@@ -15,9 +15,30 @@ ul{
     list-style-type: none;
     display: flex;
     gap: 10px;
-    
 }
 
+.marca{
+    font-size: 12px;
+}
+
+.model{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.oldprice{
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: line-through;
+
+}
 /* HEADRER */
 header{
     height: 70px;
