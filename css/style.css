@@ -18,14 +18,17 @@ ul{
     
 }
 
-
-
 /* HEADRER */
 header{
     height: 70px;
     background-color: #ff6900;
     border-bottom: 1px solid #9e9e9e;
     color: white;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 170; */
 }
 
 header > .container{
@@ -46,3 +49,15 @@ header > .container{
     height: 100%;
 }
 /* ------------------------------------------------------------ */
+
+/* MAIN */
+main{
+    padding-top: 60px
+}
+.box{
+    width:calc(100%/3);
+}
+
+img{
+    width: 100%;
+}
