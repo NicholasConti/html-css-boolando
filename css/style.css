@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* ---------------------------------------------------------------------- */
 /* COMMON */
 
 .container{
@@ -39,6 +39,8 @@ ul{
     text-decoration: line-through;
 
 }
+
+/* ---------------------------------------------------------------- */
 /* HEADRER */
 header{
     height: 70px;
@@ -136,7 +138,14 @@ main .container .box:hover .hidden{
     top: 10px;
     right: 0;
 }
+
+.heart:hover{
+    color: red;
+}
 /* ------------------------------------------------------------------------ */
+
+/* FOOTER */
+
 
 footer{
     background-color: #1a1a1a;
